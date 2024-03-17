@@ -25,7 +25,6 @@ This function allows users to record a transaction related to a vehicle interact
 This function retrieves all transactions recorded for a specific vehicle address. It takes one parameter:
 
  - _vehicle: The Ethereum address of the vehicle for which transactions are to be retrieved.
- - **NOTE** Use (https://www.eth-address.cn/) to generate the Address
 
 ### 3. getTotalTransactions(address _vehicle)
 This function retrieves the total number of transactions recorded for a specific vehicle address. It takes one parameter:
