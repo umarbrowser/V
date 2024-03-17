@@ -2,7 +2,7 @@
 This Solidity smart contract, MisbehaviorDetection.sol, provides functionality for recording transactions related to vehicle interactions and detecting misbehavior. It includes public functions for recording transactions, retrieving transaction details, and deleting transactions. Below are the details of each function and how to interact with them.
 
 ## How to Run on Remix IDE:
-1. Open Remix IDE: Visit (https://remix.ethereum.org/)[https://remix.ethereum.org/] Remix IDE in your web browser.
+1. Open Remix IDE: Visit (https://remix.ethereum.org/) Remix IDE in your web browser.
 
 2. Create a New File: In the Remix IDE, create a new file and name it MisbehaviorDetection.sol.
 
@@ -25,6 +25,7 @@ This function allows users to record a transaction related to a vehicle interact
 This function retrieves all transactions recorded for a specific vehicle address. It takes one parameter:
 
  - _vehicle: The Ethereum address of the vehicle for which transactions are to be retrieved.
+ - **NOTE** Use (https://www.eth-address.cn/) to generate the Address
 
 ### 3. getTotalTransactions(address _vehicle)
 This function retrieves the total number of transactions recorded for a specific vehicle address. It takes one parameter:
